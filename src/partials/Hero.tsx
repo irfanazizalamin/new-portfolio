@@ -15,15 +15,16 @@ const Hero = () => (
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          I'm a{' '}
+          <span className="text-cyan-400 hover:underline">
+            software engineer
+          </span>{' '}
+          with a focus on creating exceptional user experiences. I'm proficient
+          and passionate about{' '}
+          <span className="text-cyan-400 hover:underline">web development</span>{' '}
+          and enjoy solving real-world problems through innovative apps and
+          websites. I thrive on learning new technologies and stay abreast of
+          industry trends through local meetups and collaboration with peers.
         </>
       }
       avatar={
@@ -36,7 +37,7 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          {/* <a href="/">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
@@ -47,17 +48,17 @@ const Hero = () => (
               src="/assets/images/facebook-icon.png"
               alt="Facebook icon"
             />
-          </a>
-          <a href="/">
+          </a> */}
+          <a href="https://www.linkedin.com/in/irfan-aziz-al-amin-16967b142/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          <a href="https://github.com/irfanazizalamin">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src="/assets/images/github-icon.png"
+              alt="Github icon"
             />
           </a>
         </>

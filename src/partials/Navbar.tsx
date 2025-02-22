@@ -1,10 +1,4 @@
-import {
-  Logo,
-  NavbarTwoColumns,
-  NavMenu,
-  NavMenuItem,
-  Section,
-} from 'astro-boilerplate-components';
+import { Logo, NavbarTwoColumns, Section } from 'astro-boilerplate-components';
 
 const Navbar = () => (
   <Section>
@@ -13,7 +7,7 @@ const Navbar = () => (
         <Logo
           icon={
             <svg
-              className="mr-1 h-10 w-10 stroke-cyan-600"
+              className="mr-1 size-10 stroke-cyan-600"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="none"
@@ -28,15 +22,15 @@ const Navbar = () => (
               <path d="M4 20h14"></path>
             </svg>
           }
-          name="Irfan's Blog"
+          name="Irfan's Step"
         />
       </a>
 
-      <NavMenu>
+      {/* <NavMenu>
         <NavMenuItem href="/posts/">Blogs</NavMenuItem>
         <NavMenuItem href="/">GitHub</NavMenuItem>
-        {/* <NavMenuItem href="/">Twitter</NavMenuItem> */}
-      </NavMenu>
+        <NavMenuItem href="/">Twitter</NavMenuItem>
+      </NavMenu> */}
     </NavbarTwoColumns>
   </Section>
 );
